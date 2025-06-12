@@ -1,29 +1,12 @@
 <div align="center">
   <img src="public/Images/demos/Logo.png" alt="Levatio Logo" width="200"/>
   
-  # LEVATIO
   ### Premium Fitness Experience Platform
   
   <p align="center">
     <em>A modern, responsive web application for fitness centers with advanced features and stunning animations</em>
   </p>
-
-  ![Demo Home](public/Images/demos/home.png)
 </div>
-
-## 🚨 COPYRIGHT NOTICE
-
-**⚠️ This project is STRICTLY COPYRIGHTED and PROPRIETARY**
-
-All code, designs, assets, and documentation in this repository are the exclusive property of the copyright holders. **NO USAGE IS PERMITTED** without explicit written authorization.
-
-- ❌ **NO** copying, forking, or downloading
-- ❌ **NO** modifications or derivative works  
-- ❌ **NO** commercial or personal use
-- ❌ **NO** reverse engineering or analysis
-- ❌ **NO** contributions accepted
-
-For licensing inquiries or permission requests, contact the development team through official channels.
 
 ---
 
@@ -32,61 +15,32 @@ For licensing inquiries or permission requests, contact the development team thr
 <div align="center">
   
   ### Desktop Experience
-  
-  https://github.com/user-attachments/assets/desktopsitevideodemo.mp4
+
+  https://github.com/user-attachments/assets/834650d6-e744-42b6-aa33-5a74a70bfb64
   
   *Complete desktop experience showcase - Full feature demonstration*
   
   ---
   
   ### Mobile Experience
-  
-  <video width="300" controls>
-    <source src="public/Images/demos/iphonedemovid.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
+
+**Mobile-First Approach** with adaptive layouts and touch-friendly interactions  
+<br/>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="public/Images/demos/iphonescrenshot.png" alt="Mobile Screenshot" width="300"/>
+      <br/>
+      <em>Optimized mobile interface with smooth animations</em>
+    </td>
+  </tr>
+</table>
+
+  <br/> 
   <br/>
-  <em>Mobile experience demo - Smooth, responsive design optimized for all devices</em>
-  
-</div>
 
 ## 🌟 Key Features Overview
-
-### 🏋️ **Multi-Location Support**
-**2 Premium Gym Locations** with interactive maps and real-time services
-
-<div align="center">
-  <img src="public/Images/demos/ourgyms.png" alt="Our Gyms" width="600"/>
-  <br/>
-  <em>Interactive gym location selector with detailed facility information</em>
-</div>
-
-### 📱 **Responsive Design Excellence**
-**Mobile-First Approach** with adaptive layouts and touch-friendly interactions
-
-<div align="center">
-  <img src="public/Images/demos/iphonescrenshot.png" alt="Mobile Screenshot" width="300"/>
-  <br/>
-  <em>Optimized mobile interface with smooth animations</em>
-</div>
-
-### 💳 **Smart Membership System**
-**3-Tier Membership Plans** with interactive pricing and streamlined registration
-
-<div align="center">
-  <img src="public/Images/demos/prices.png" alt="Pricing Plans" width="600"/>
-  <br/>
-  <em>Dynamic pricing cards with detailed feature comparisons</em>
-</div>
-
-### 🗺️ **Interactive Location Features**
-**Advanced Mapping Integration** with Google Maps and location services
-
-<div align="center">
-  <img src="public/Images/demos/location.png" alt="Location Features" width="600"/>
-  <br/>
-  <em>Interactive location features with Google Maps integration and contact details</em>
-</div>
 
 ### ℹ️ **About & Company Information**
 **Professional Company Presentation** with modern design and compelling content
@@ -97,10 +51,47 @@ For licensing inquiries or permission requests, contact the development team thr
   <em>Comprehensive about section showcasing company values and mission</em>
 </div>
 
+   <br/>
+   
+### 🏋️ **Multi-Location Support**
+  <br/>
+
+**Premium Gym Locations** with interactive maps and real-time services
+
+<div align="center">
+  <img src="public/Images/demos/ourgyms.png" alt="Our Gyms" width="600"/>
+  <br/>
+  <em>Interactive gym location selector with detailed facility information</em>
+</div>
+
+ <br/>
+
+### 🗺️ **Interactive Location Features**
+**Advanced Mapping Integration** with Google Maps and location services
+
+<div align="center">
+  <img src="public/Images/demos/location.png" alt="Location Features" width="600"/>
+  <br/>
+  <em>Interactive location features with Google Maps integration and contact details</em>
+</div>
+
+  <br/>
+
+  ### 💳 **Smart Membership System**
+**Tier Membership Plans** with interactive pricing and streamlined registration
+
+<div align="center">
+  <img src="public/Images/demos/prices.png" alt="Pricing Plans" width="600"/>
+  <br/>
+  <em>Dynamic pricing cards with detailed feature comparisons</em>
+</div>
+
+<br/>
+
 ## 🛠️ Technology Stack
 
 ```
-Frontend Framework    → Next.js 15 (React 19)
+Frontend Framework   → Next.js 15 (React 19)
 Styling              → Tailwind CSS 3.4
 UI Components        → NextUI 2.6
 Animations           → Framer Motion 12.7
@@ -308,6 +299,20 @@ All brand assets including logos, color schemes, and typography are professional
 
 This software and associated documentation files are proprietary and confidential. Unauthorized copying, distribution, or use is strictly prohibited without explicit written permission.
 
+## 🚨 COPYRIGHT NOTICE
+
+**⚠️ This project is STRICTLY COPYRIGHTED and PROPRIETARY**
+
+All code, designs, assets, and documentation in this repository are the exclusive property of the copyright holders. **NO USAGE IS PERMITTED** without explicit written authorization.
+
+- ❌ **NO** copying, forking, or downloading
+- ❌ **NO** modifications or derivative works  
+- ❌ **NO** commercial or personal use
+- ❌ **NO** reverse engineering or analysis
+- ❌ **NO** contributions accepted
+
+For licensing inquiries or permission requests, contact the development team through official channels.
+
 ## 📞 Contact
 
 For licensing inquiries or permission requests, please contact the development team through official channels.
@@ -316,6 +321,5 @@ For licensing inquiries or permission requests, please contact the development t
 
 <div align="center">
 <p><strong>⟡ yasxEd ⟡</strong></p>
-    <img src="public/Images/demos/Logo.png" alt="Levatio" width="100"/>
 </div>
 
