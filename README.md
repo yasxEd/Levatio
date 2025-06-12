@@ -90,18 +90,19 @@
 
 ## 🛠️ Technology Stack
 
-```
-Frontend Framework   → Next.js 15 (React 19)
-Styling              → Tailwind CSS 3.4
-UI Components        → NextUI 2.6
-Animations           → Framer Motion 12.7
-Icons                → Lucide React & React Icons
-Language             → TypeScript 5
-Package Manager      → PNPM
-Maps Integration     → Google Maps API
-Video Processing     → Optimized MP4 delivery
-Image Optimization   → Next.js Image Component
-```
+| Category            | Technology                             |
+|---------------------|-----------------------------------------|
+| **Frontend**         | Next.js 15 (React 19)                  |
+| **Styling**          | Tailwind CSS 3.4                       |
+| **UI Components**    | NextUI 2.6                             |
+| **Animations**       | Framer Motion 12.7                    |
+| **Icons**            | Lucide React, React Icons             |
+| **Language**         | TypeScript 5                          |
+| **Package Manager**  | PNPM                                  |
+| **Maps Integration** | Google Maps API                       |
+| **Video Processing** | Optimized MP4 delivery                |
+| **Image Handling**   | Next.js Image Component               |
+
 
 ## 🏗️ System Architecture
 
@@ -197,35 +198,6 @@ Mobile:    < 768px   (sm)  - Touch-optimized interface
 Tablet:    768px+    (md)  - Hybrid interaction model
 Desktop:   1024px+   (lg)  - Full feature experience
 Large:     1280px+   (xl)  - Enhanced visual elements
-```
-
-## 📂 Project Structure
-
-```
-levatio/
-├── public/
-│   ├── Images/
-│   │   ├── demos/           # Demo screenshots and videos
-│   │   ├── testimonials/    # User testimonial images
-│   │   └── ...             # Static images and assets
-│   ├── videos/             # Video content (hero, features)
-│   └── favicon.ico         # Site favicon
-├── src/
-│   ├── app/
-│   │   ├── globals.css     # Global styles and animations
-│   │   ├── layout.tsx      # Root layout with providers
-│   │   └── page.tsx        # Home page composition
-│   └── components/
-│       ├── sections/       # Page sections (Hero, Features, etc.)
-│       ├── ui/            # Reusable UI components
-│       ├── Navbar.tsx     # Navigation with schedule modal
-│       ├── Footer.tsx     # Footer with contact info
-│       ├── WhatsAppButton.tsx  # Floating WhatsApp integration
-│       └── ClientCursor.tsx    # Custom cursor implementation
-├── tailwind.config.js      # Tailwind configuration
-├── next.config.ts         # Next.js configuration
-├── tsconfig.json          # TypeScript configuration
-└── package.json           # Dependencies and scripts
 ```
 
 ## 🚀 Performance Features
