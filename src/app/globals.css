@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@font-face {
+  font-family: 'gatu';
+  src: url('/fonts/0Gatu-Regular.woff2') format('woff2'),
+       url('/fonts/0Gatu-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Faculty Glyphic';
+  src: url('/fonts/FacultyGlyphic-Regular.ttf') format('truetype'),
+       url('/fonts/FacultyGlyphic-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hide default cursor when custom cursor is active */
+html.custom-cursor-active,
+html.custom-cursor-active * {
+  cursor: none !important;
+}
+
+/* Ensure interactive elements have subtle cursor indication */
+a, button, input[type="button"], [role="button"] {
+  transition: transform 0.3s ease;
+}
+
+a:focus, button:focus, input[type="button"]:focus, [role="button"]:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Faculty Glyphic', serif;
+}
+
+/* For placeholder images in the classes section */
+.bg-red-800 {
+  background-image: linear-gradient(45deg, rgba(185, 28, 28, 0.8), rgba(153, 27, 27, 0.8));
+}
+
+.bg-blue-800 {
+  background-image: linear-gradient(45deg, rgba(30, 64, 175, 0.8), rgba(37, 99, 235, 0.8));
+}
+
+.bg-green-800 {
+  background-image: linear-gradient(45deg, rgba(22, 101, 52, 0.8), rgba(20, 83, 45, 0.8));
+}
+
+.bg-purple-800 {
+  background-image: linear-gradient(45deg, rgba(107, 33, 168, 0.8), rgba(126, 34, 206, 0.8));
+}
+
+/* Custom cursor styles */
+.custom-cursor,
+.custom-cursor * {
+  cursor: none !important;
+}
+
+.cursor-dot {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: #000; /* Default black for light backgrounds */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.15s ease, width 0.15s ease, height 0.15s ease;
+  opacity: 0;
+  mix-blend-mode: difference; /* This creates the color inversion effect */
+}
+
+/* On dark backgrounds, the mix-blend-mode: difference will make black cursor appear as white */
+/* We can leverage this for our color adaptation */
+
+.cursor-dot.hovering {
+  width: 15px;
+  height: 15px;
+  background-color: #0ea5e9; /* Sky blue on hover, will be inverted on dark backgrounds */
+}
+
+.cursor-dot.clicking {
+  width: 10px;
+  height: 10px;
+  background-color: #0ea5e9; /* Sky blue when clicking */
+}
+
+/* Dark mode specific adjustments */
+@media (prefers-color-scheme: dark) {
+  .cursor-dot {
+    background-color: #0ea5e9; /* Sky blue for dark mode */
+  }
+  
+  .cursor-dot.hovering,
+  .cursor-dot.clicking {
+    background-color: #fff; /* White for contrast on hover/click in dark mode */
+  }
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .cursor-dot {
+    display: none;
+  }
+  
+  .custom-cursor * {
+    cursor: auto !important;
+  }
+}
+
+/* Simplified cursor styles using mix-blend-mode */
+.cursor-dot {
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color: #0ea5e9; /* Sky blue color */
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: background-color 0.15s ease, width 0.15s ease, height 0.15s ease;
+  opacity: 0;
+  mix-blend-mode: exclusion; /* Makes cursor adapt to background color */
+}
+
+.cursor-dot.hovering {
+  background-color: #fff; /* White color for contrast when hovering */
+  width: 15px;
+  height: 15px;
+}
+
+.cursor-dot.clicking {
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+
+/* WhatsApp button animations */
+@keyframes ping-slow {
+  0% {
+    transform: scale(0.2);
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
